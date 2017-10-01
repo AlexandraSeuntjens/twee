@@ -1,0 +1,192 @@
+body {
+    font-family: 'Rokkitt', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 44.75px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: darkred;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Rokkitt', serif;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    position: relative;
+    margin-left: 38%;
+}
+
+h1::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 1em;
+    width: 100%;
+    border-bottom: 6px solid red;
+    margin-top: 3px;
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+p {
+    text-align: center;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    line-height: 1.7;
+    color: white;
+}
+
+footer {
+    margin-top: 12%;
+}
+
+.eyecatcher {
+    width: 100%;
+}
+
+.spatie {
+    padding-top: 3%;
+}
+
+#gridcontainer {
+    display: grid;
+    width: 100%;
+    height: 1200px;
+    margin: auto;
+    margin-bottom: 2%;
+    grid-template-columns: 20px 0.25fr 20px 1fr 20px 1fr 20px; /* zeven kolommen */
+    grid-template-rows: 60px 0.25fr 70px 1.7fr 50px 2fr 80px; /* zeven rijen */
+}
+
+.gridcontainer2 {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    margin-bottom: 2%;
+    grid-template-columns: 20px 0.25fr 20px 1fr 20px 1fr 20px; /* zeven kolommen */
+    grid-template-rows: 60px 0.25fr 70px 1.7fr 50px /* zeven rijen */
+}
+
+/*** PAGE ONE ***/
+.title {
+    grid-column: 2;
+    grid-column-end: 7;
+    grid-row: 2;
+    grid-row-end: 2;
+}
+
+#tape {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#line {
+    grid-column: 5;
+    grid-row: 4;
+    background-color: #540513;
+    width: 40%;
+}
+
+#intro {
+    grid-column: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    color: white;
+    padding-top: 18.5%;
+    font-size: 17px;
+}
+
+#author {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row: 6;
+}
+
+#auteur {
+    padding-left: 25%;
+}
+
+#about {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row: 6;
+    color: white;
+}
+
+#made {
+    padding-left: 84%;
+    padding-right: 0%;
+    padding-bottom: 0.5%;
+    color: red;
+    font-size: 18px;
+}
+
+/*** PAGE TWO ***/
+
+.number {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: white;
+}
+
+.cijfer {
+    font-size: 12em;
+    padding-left: 83%;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: -75%;
+}
+
+.character {
+    grid-column: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: white;
+}
+
+.size {
+    width: 90%;
+}
+
+.desc {
+    grid-column-start: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    color: white;
+}
